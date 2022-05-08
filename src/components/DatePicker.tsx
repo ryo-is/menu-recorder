@@ -16,7 +16,7 @@ interface IDatePicker {
 }
 
 export const DatePicker: Component<IDatePicker> = (props) => {
-  const [isOpen, setIsOpen] = createSignal(true);
+  const [isOpen, setIsOpen] = createSignal(false);
   const [selectedMonth, setSelectedMonth] = createSignal<string>();
   const [dates, setDates] = createSignal<string[]>([]);
 

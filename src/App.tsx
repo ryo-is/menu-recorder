@@ -4,7 +4,7 @@ import { Top } from '@pages/Top';
 
 export const App: Component = () => {
   return (
-    <div class="h-screen pt-16">
+    <div class="h-screen">
       <Routes>
         <Route path="/" element={<Top />} />
       </Routes>
